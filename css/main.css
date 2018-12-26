@@ -1,3 +1,32 @@
+html {
+	font-size: 10px;
+}
+
 body {
-    font-family: PD;
+	font-family: PD;
+}
+
+.header-main {
+	padding: 5rem 0;
+	color: #000000;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+.logo {
+	font-size: 3rem;
+}
+
+.menu-rows {
+	vertical-align: middle;
+	display: block;
+	padding: 1rem 0;
+}
+
+.img-header {
+	margin-top: 7rem;
+}
+
+.img-header img {
+	width: 100%;
 }
