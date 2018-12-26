@@ -1,3 +1,137 @@
 body {
     font-family: PD;
+    font-size: 14px;
+    height: 2000px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #333333;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section-two {
+    margin-top: 130px;
+}
+
+.section-item {
+    margin-bottom: 120px;
+}
+
+.section-img img {
+    width: 100%;
+}
+
+.section-categories {
+    font-family: Ubuntu;
+    font-weight: 300;
+    color: #b4ad9e;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.section-name {
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 25px;
+}
+
+.section-text {
+    font-size: 15px;
+    line-height: 24px;
+    color: #626262
+}
+
+.feature {
+    background: #f0f0f0;
+    padding-bottom: 90px;
+}
+
+.form {
+    position: relative;
+}
+
+.form__input {
+    width: 100%;
+    background: #f0f0f0;
+    border: none;
+    outline: none;
+    height: 36px;
+    border-bottom: 1px solid #000; 
+    color: #626262;
+    padding-left: 5px;            
+}
+
+.form__btn {
+    position: absolute;
+    width: 33px;
+    height: 17px;
+    background: url(../img/send-icon.png) no-repeat center left;
+    border: none;
+    right: 5px;
+    top: 50%;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+footer {
+    height: 105px;  
+    background: #f0f0f0;
+}
+  
+.footer-a {
+    color: #000000;
+    border: 1px solid #f0f0f0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    margin-right: 15px;
+}
+    
+.footer-a:hover {
+    color: #000000;
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+}
+
+.footer-a:active {
+    color: #000000;
+    border-bottom: 1px solid #000
+}
+
+.footer-main, .footer-left, .footer-right{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-main {
+    justify-content: space-between
+}
+
+.footer-container {
+    height: 100%;
+}
+
+.footer-img:hover{
+    border: 1px solid #f0f0f0
+}
+
+@media screen and (max-width: 400px) {
+    h3{
+        font-size: 25px
+    }
+
+    .footer-main {
+        flex-direction: column
+    }
+}
+
+@media screen and (max-width: 350px) {
+    h3{
+        font-size: 20px
+    }
 }
