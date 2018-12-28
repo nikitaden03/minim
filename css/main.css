@@ -183,6 +183,14 @@ footer {
 	border: 1px solid #f0f0f0
 }
 
+.dop-content {
+	display: none;
+}
+
+.dop-content_active {
+	display: block;
+}
+
 @media screen and (max-width: 400px) {
 	h3 {
 		font-size: 25px

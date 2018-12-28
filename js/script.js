@@ -12,3 +12,8 @@ window.onload = function () {
 		}
 	}
 }
+
+$('#footer-btn').click(function(){
+	$('.dop-content').toggleClass('dop-content_active');
+	$('.dop-content').toggleClass('fadeOutUp');
+})
