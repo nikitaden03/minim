@@ -11,20 +11,30 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<title>Minimo</title>
 </head>
-<a href="#"></a>
 
 <body>
 	<header class="header">
 		<div class="container">
-			<div class="header-main">
+			<div class="m-menu">
+				<div class="tabs-header"><a href="#">minimø</a></div>
+				<div class="tabs-body">
+					<a href="#one">lifestyle</a>
+					<a href="#two">photodiary</a>
+					<a href="#free">music</a>
+					<a href="#four">travel</a>
+
+				</div>
+			</div>
+
+			<div class="header-main visible-lg">
 				<div class="row">
 					<div class="col-lg-2 col-md-2 offset-md-0 coll-sm-12 offset-sm-0"><a href="#" class="logo text-center">minimø</a></div>
-					<div class="col-lg-2 offset-lg-3 col-md-3 offset-md-0 coll-sm-12 offset-sm-0"><a href="#" class="menu-rows text-center">lifestyle</a></div>
-					<div class="col-lg-2 col-md-3 offset-md-0 coll-sm-12 offset-sm-0"><a href="#" class="menu-rows text-center">photodiary</a>
+					<div class="col-lg-2 offset-lg-3 col-md-3 offset-md-0 coll-sm-12 offset-sm-0"><a href="#one" class="menu-rows text-center">lifestyle</a></div>
+					<div class="col-lg-2 col-md-3 offset-md-0 coll-sm-12 offset-sm-0"><a href="#two" class="menu-rows text-center">photodiary</a>
 					</div>
-					<div class="col-lg-2 col-md-2 offset-md-0 coll-sm-12 offset-sm-0"><a href="#" class="menu-rows text-center">music</a>
+					<div class="col-lg-2 col-md-2 offset-md-0 coll-sm-12 offset-sm-0"><a href="#free" class="menu-rows text-center">music</a>
 					</div>
-					<div class="col-lg-1 col-md-2 offset-md-0 coll-sm-12 offset-sm-0"><a href="#" class="menu-rows text-center">travel</a>
+					<div class="col-lg-1 col-md-2 offset-md-0 coll-sm-12 offset-sm-0"><a href="#four" class="menu-rows text-center">travel</a>
 					</div>
 				</div>
 				<div class="img-header"><img src="img/img-header.jpg" alt="header-picture"></div>
@@ -34,7 +44,7 @@
 	<nav class="nav">
 		<div class="container">
 			<!--Первая секция с описанием на ширина-->
-			<section class="section-one">
+			<section class="section-one" id="one">
 				<div class="row">
 					<div class="col-lg-10 offset-lg-1">
 						<p class="section-categories text-left">photodiary</p>
@@ -45,7 +55,7 @@
 				</div>
 			</section>
 			<!--Вторая секция под две колонки-->
-			<section class="section-two">
+			<section class="section-two" id="two">
 				<div class="row">
 					<div class="col-md-5 offset-md-1">
 						<div class="section-item">
@@ -87,7 +97,6 @@
 							<p class="section-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
 						</div>
 					</div>
-					<!-- <div class="col-lg-5 offset-lg-1"></div> -->
 				</div>
 			</section>
 		</div>
@@ -96,7 +105,7 @@
 	<section class="feature">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 text-center">
+				<div class="col-12 text-center" id="free">
 					<h3>Sign up for our newsletter!</h3>
 				</div>
 				<div class="col-md-6 offset-md-3">
@@ -111,7 +120,7 @@
 		</div>
 	</section>
 	<div class="container">
-		<section class="section-three">
+		<section class="section-three" id="four">
 			<div class="row">
 				<div class="col-md-5 offset-md-1">
 					<div class="section-item">
@@ -158,7 +167,7 @@
 		</div>
 
 	</footer>
-
+	<script src="js/script.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </body>
 
