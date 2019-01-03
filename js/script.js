@@ -18,6 +18,7 @@ window.onload = function () {
 		});
 	});
 }
+
 let count = 0;
 (function () {
 	$(document).ready(function () {
