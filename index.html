@@ -7,10 +7,9 @@
 
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/animated.css">
-	
+	<link rel="stylesheet" href="css/fonts.css">
 	<title>Minimo</title>
 </head>
 
@@ -31,22 +30,22 @@
 			<div class="header-main visible-lg">
 				<div class="row">
 					<div class="col-lg-2 col-md-2 offset-md-0 coll-sm-12 offset-sm-0"><a href="#" class="logo text-center">minimø</a></div>
-					<div class="col-lg-2 offset-lg-3 col-md-3 offset-md-0 coll-sm-12 offset-sm-0"><a href="#one" class="menu-rows text-center">lifestyle</a></div>
+					<div class="col-lg-2 offset-lg-2 col-md-3 offset-md-0 coll-sm-12 offset-sm-0"><a href="#one" class="menu-rows text-center">lifestyle</a></div>
 					<div class="col-lg-2 col-md-3 offset-md-0 coll-sm-12 offset-sm-0"><a href="#two" class="menu-rows text-center">photodiary</a>
 					</div>
 					<div class="col-lg-2 col-md-2 offset-md-0 coll-sm-12 offset-sm-0"><a href="#free" class="menu-rows text-center">music</a>
 					</div>
-					<div class="col-lg-1 col-md-2 offset-md-0 coll-sm-12 offset-sm-0"><a href="#four" class="menu-rows text-center">travel</a>
+					<div class="col-lg-2 col-md-2 offset-md-0 coll-sm-12 offset-sm-0"><a href="#four" class="menu-rows text-center">travel</a>
 					</div>
 				</div>
-				<div class="img-header"><img src="img/img-header.jpg" alt="header-picture"></div>
+				<div class="img-header"><img src="img/img-header.jpg" alt="Главная картинка"></div>
 			</div>
 		</div>
 	</header>
 	<nav class="nav">
 		<div class="container">
 			<!--Первая секция с описанием на ширина-->
-			<section class="section-one" id="one">
+			<div class="section-one" id="one">
 				<div class="row">
 					<div class="col-lg-10 offset-lg-1">
 						<p class="section-categories text-left">photodiary</p>
@@ -55,14 +54,14 @@
 						<p class="section-categories text-left">Leave a comment</p>
 					</div>
 				</div>
-			</section>
+			</div>
 			<!--Вторая секция под две колонки-->
-			<section class="section-two" id="two">
+			<div class="section-two" id="two">
 				<div class="row">
 					<div class="col-md-5 offset-md-1">
 						<div class="section-item">
 							<div class="section-img">
-								<img src="img/section-1.jpg">
+								<img src="img/section-1.jpg" alt="Изображение новости">
 							</div>
 							<p class="section-categories">Lifestyle</p>
 							<p class="section-name">More than just a music festival </p>
@@ -72,7 +71,7 @@
 					<div class="col-md-5 ">
 						<div class="section-item">
 							<div class="section-img">
-								<img src="img/section-2.jpg">
+								<img src="img/section-2.jpg"  alt="Изображение новости">
 							</div>
 							<p class="section-categories">Lifestyle</p>
 							<p class="section-name">Life tastes better with coffee</p>
@@ -82,7 +81,7 @@
 					<div class="col-md-5 offset-md-1">
 						<div class="section-item">
 							<div class="section-img">
-								<img src="img/section-3.jpg">
+								<img src="img/section-3.jpg"  alt="Изображение новости">
 							</div>
 							<p class="section-categories">photodiary</p>
 							<p class="section-name">American dream</p>
@@ -92,7 +91,7 @@
 					<div class="col-md-5 ">
 						<div class="section-item">
 							<div class="section-img">
-								<img src="img/section-4.jpg">
+								<img src="img/section-4.jpg"  alt="Изображение новости">
 							</div>
 							<p class="section-categories">photodiary</p>
 							<p class="section-name">A day exploring the Alps</p>
@@ -100,11 +99,11 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</div>
 		</div>
 	</nav>
 	<!--Форма с E-mail-->
-	<section class="feature">
+	<div class="feature">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center" id="free">
@@ -112,22 +111,22 @@
 				</div>
 				<div class="col-md-6 offset-md-3">
 					<div class="form">
-						<form action="POST">
-							<input type="text" class="form__input" placeholder="Enter a valid email address">
-							<input type="submit" class="form__btn" value="">
+						<form action="" method="POST">
+							<input type="text" class="form__input" name="email" placeholder="Enter a valid email address">
+							<input type="submit" class="form__btn" name="btn" value="">
 						</form>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 	<div class="container">
-		<section class="section-three">
+		<div class="section-three" id="four">
 			<div class="row">
 				<div class="col-md-5 offset-md-1">
 					<div class="section-item">
 						<div class="section-img">
-							<img src="img/section-5.jpg">
+							<img src="img/section-5.jpg"  alt="Изображение новости"> 
 						</div>
 						<p class="section-categories">Lifestyle</p>
 						<p class="section-name">Top 10 song for running</p>
@@ -137,7 +136,7 @@
 				<div class="col-md-5 ">
 					<div class="section-item">
 						<div class="section-img">
-							<img src="img/section-6.jpg">
+							<img src="img/section-6.jpg"  alt="Изображение новости">
 						</div>
 						<p class="section-categories">Lifestyle</p>
 						<p class="section-name">Cold winter days</p>
@@ -145,12 +144,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="dop-content animated fadeInDown fadeOutUp">
+			<div class="dop-content animated fadeInDown">
 				<div class="row">
 					<div class="col-md-5 offset-md-1">
 						<div class="section-item">
 							<div class="section-img">
-								<img src="img/section-5.jpg">
+								<img src="img/section-5.jpg"  alt="Изображение новости">
 							</div>
 							<p class="section-categories">Lifestyle</p>
 							<p class="section-name">Top 10 song for running</p>
@@ -160,7 +159,7 @@
 					<div class="col-md-5 ">
 						<div class="section-item">
 							<div class="section-img">
-								<img src="img/section-6.jpg">
+								<img src="img/section-6.jpg"  alt="Изображение новости">
 							</div>
 							<p class="section-categories">Lifestyle</p>
 							<p class="section-name">Cold winter days</p>
@@ -170,7 +169,7 @@
 					<div class="col-md-5 offset-md-1">
 						<div class="section-item">
 							<div class="section-img">
-								<img src="img/section-5.jpg">
+								<img src="img/section-5.jpg"  alt="Изображение новости">
 							</div>
 							<p class="section-categories">Lifestyle</p>
 							<p class="section-name">Top 10 song for running</p>
@@ -180,7 +179,7 @@
 					<div class="col-md-5 ">
 						<div class="section-item">
 							<div class="section-img">
-								<img src="img/section-6.jpg">
+								<img src="img/section-6.jpg"  alt="Изображение новости">
 							</div>
 							<p class="section-categories">Lifestyle</p>
 							<p class="section-name">Cold winter days</p>
@@ -190,7 +189,7 @@
 					<div class="col-md-5 offset-md-1">
 						<div class="section-item">
 							<div class="section-img">
-								<img src="img/section-5.jpg">
+								<img src="img/section-5.jpg"  alt="Изображение новости">
 							</div>
 							<p class="section-categories">Lifestyle</p>
 							<p class="section-name">Top 10 song for running</p>
@@ -200,7 +199,7 @@
 					<div class="col-md-5 ">
 						<div class="section-item">
 							<div class="section-img">
-								<img src="img/section-6.jpg">
+								<img src="img/section-6.jpg"  alt="Изображение новости">
 							</div>
 							<p class="section-categories">Lifestyle</p>
 							<p class="section-name">Cold winter days</p>
@@ -209,11 +208,11 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
 	</div>
-	<section class="section-btn">
+	<div class="section-btn">
 		<button class="btn btn-outline-secondar footer-btn" id="footer-btn">Load more</button>
-	</section>
+	</div>
 	<!--Кнопка-->
 	<footer class="footer">
 		<div class="container footer-container">
@@ -222,7 +221,7 @@
 					<a href="#" class="footer-a">Terms and conditions</a>
 					<a href="#" class="footer-a">Privacy</a>
 				</div>
-				<div id="four" class="footer-right">
+				<div class="footer-right">
 					<a href="#" class="footer-a">Follow</a>
 					<a href="#" class="footer-a footer-img"><img src="img/facebook.png" alt="Facebook"></a>
 					<a href="#" class="footer-a footer-img"><img src="img/twitter.png" alt="Twitter"></a>
